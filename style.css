@@ -1,0 +1,499 @@
+#social
+{
+    position: absolute;
+    right: 30px;
+    top: 10px;  
+}
+
+#social img
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light background color */
+    color: #333; /* Dark text for contrast */
+    line-height: 1.6;
+}
+
+/* Main container */
+#main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+#header {
+    background: linear-gradient(to right, #ffcc00, #ff6699); /* Gradient for header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+#nav {
+    background-color: #333;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+#nav li {
+    margin: 0 15px;
+}
+
+#nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+#nav a:hover,
+#nav a.active {
+    background-color: #ff6699; /* Highlight color */
+    border-radius: 5px;
+}
+
+/* Content styles */
+#content {
+    margin-top: 20px;
+}
+
+/* Title styles */
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#home_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.pics {
+    background-color: #fff; /* White background for each Pokémon */
+    border: 2px solid #ffcc00; /* Border around Pokémon boxes */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px; /* Fixed width */
+}
+
+.pics img {
+    width: 100%; /* Responsive image */
+    border-radius: 10px;
+}
+
+/* Video container styles */
+.videocontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.video {
+    flex: 1 1 45%; /* Flex layout for videos */
+    margin: 10px;
+}
+
+iframe {
+    width: 100%; /* Responsive video */
+    height: 280px; /* Fixed height */
+    border-radius: 10px;
+}
+
+/* Footer styles */
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+#footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+/* Common reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling for other pages */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5; /* Softer background for other pages */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main container */
+#main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+#header {
+    background: linear-gradient(to right, #3b82f6, #ff6f61); /* Vibrant gradient for other pages */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Navigation bar */
+#nav {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+#nav li {
+    margin: 0 15px;
+}
+
+#nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+#nav a:hover,
+#nav a.active {
+    background-color: #ff6f61; /* Highlight color for active and hover state */
+    border-radius: 5px;
+}
+
+/* Content styling */
+#content {
+    margin-top: 30px;
+}
+
+/* Section titles */
+#title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#content h2 {
+    font-size: 2.5rem;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+/* Blocks for Pokémon */
+.blocks {
+    background-color: #fff;
+    border: 2px solid #3b82f6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width: 300px; /* Fixed width */
+    display: block;
+    float: left;
+    min-height: 1300px;
+}
+
+.blocks img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.blocks p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blocks .type {
+    font-weight: bold;
+    color: #3b82f6;
+}
+
+/* Layout for Pokémon blocks */
+#content {
+    display: inline-block;
+}
+
+/* Video container styling */
+.videocontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.video {
+    flex: 1 1 45%;
+    margin: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 320px; /* Larger, more responsive videos */
+    border-radius: 10px;
+}
+
+/* Footer styling */
+#footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#footer a {
+    color: #ff6f61;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+/* Social media icons */
+#social {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+#social img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #content {
+        flex-direction: column;
+    }
+
+    .blocks {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .video {
+        flex: 1 1 100%;
+    }
+}
+
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #ff6699;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#scrollTopBtn:hover {
+    background-color: #ffcc00;
+}
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+ }
+ body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    font-size: 18px;
+ }
+ #main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+ }
+ #header {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ }
+ #header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff4500;
+    text-shadow: 2px 2px #333;
+ }
+ #social {
+    margin-top: 10px;
+ }
+ #social img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+ }
+ #social img:hover {
+    transform: scale(1.1);
+ }
+ #nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #ff4500;
+    padding: 10px;
+ }
+ #nav ul li {
+    margin: 0 15px;
+ }
+ #nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+ }
+ #nav ul li a:hover, .active {
+    background-color: #ffd700;
+    color: #333;
+    border-radius: 5px;
+ }
+ #content {
+    background: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ }
+ #title h2 {
+    font-size: 36px;
+    color: #ff4500;
+    margin-bottom: 20px;
+    text-align: center;
+ }
+ .Container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+ }
+ .Container form {
+    display: flex;
+    flex-direction: column;
+ }
+ label {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+ }
+ input[type="text"], textarea {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #f4f4f9;
+ }
+ textarea {
+    height: 150px;
+    resize: none;
+ }
+ input[type="submit"] {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ input[type="submit"]:hover {
+    background-color: #ffd700;
+    color: #333;
+ }
+ #footer {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+ }
+ #footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ #footer a:hover {
+    color: #ffd700;
+ }
+ /* Responsive Design */
+ @media screen and (max-width: 768px) {
+    #nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    #nav ul li {
+        margin: 10px 0;
+    }
+    #content {
+        padding: 20px;
+    }
+ }
+
+
